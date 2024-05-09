@@ -1,0 +1,18 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{tikz}
+
+\begin{document}
+
+\begin{figure}[htbp]
+  \centering
+  \begin{tikzpicture}
+    \node[anchor=south west,inner sep=0] at (0,0) {\includegraphics{sine_plot.pdf}};
+    % Personaliza la ubicación y el tamaño del gráfico si es necesario
+    % \node[anchor=south west,inner sep=0] at (x, y) {\includegraphics[scale=0.5]{mi_grafico.pdf}};
+  \end{tikzpicture}
+  \caption{Mi gráfico personalizado.}
+  \label{fig:mi_grafico}
+\end{figure}
+
+\end{document}
