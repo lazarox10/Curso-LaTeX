@@ -1,2 +1,5 @@
-*.pdf
-*.synctex
+# Ignorar todos los archivos excepto los archivos .tex
+*
+
+# Permitir archivos .tex
+!*.tex
